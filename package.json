@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "lint": "lerna run lint",
+    "test": "lerna run test",
+    "build": "lerna run build",
+    "publish": "npm run build && npm run lint && npm run test && lerna --ignore-changes example-project publish"
+  },
+  "devDependencies": {
+    "lerna": "^3.10.7",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.3.1"
+  }
+}

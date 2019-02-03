@@ -27,7 +27,6 @@
     "dist"
   ],
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@types/jest": "^23.3.13",

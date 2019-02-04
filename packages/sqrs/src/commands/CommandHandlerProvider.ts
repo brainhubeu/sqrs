@@ -8,9 +8,16 @@ export interface CommandHandlerProvider {
   <T extends string = string>(type: T): CommandHandler<Command<T>> | undefined;
 }
 
-export const containerCommandHandlerProviderFactory = (container: Container): CommandHandlerProvider => {
+/**
+ * Creates a function that resolves command handler from the container for a given command by it's type
+ *
+ * @export
+ * @param {Container} container
+ * @returns {CommandHandlerProvider}
+ */
+export function containerCommandHandlerProviderFactory (container: Container): CommandHandlerProvider {
   return (type) => {
     const id = commandHandlerId(type);
     return container.isBound(id) ? container.get(id) : undefined;
   };
-};
+}

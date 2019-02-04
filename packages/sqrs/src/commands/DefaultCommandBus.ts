@@ -5,6 +5,13 @@ import { CommandHandlerProvider, commandHandlerProviderId } from './CommandHandl
 import MissingCommandHandlerError from '../errors/MissingCommandHandlerError';
 import { CommandValidatorProvider, commandValidatorProviderId } from './CommandValidatorProvider';
 
+/**
+ * Generic interface describing result of running command
+ *
+ * @export
+ * @interface CommandResult
+ * @template TValidationError
+ */
 export interface CommandResult<TValidationError = string> {
   success: boolean;
   isValid: boolean;
@@ -24,6 +31,13 @@ export class DefaultCommandBus implements CommandBus<CommandResult> {
   ) {
   }
 
+  /**
+   * Dispatches a command in the same process and returns promise resolving with command result
+   *
+   * @param {Command} command
+   * @returns {Promise<CommandResult>}
+   * @memberof DefaultCommandBus
+   */
   async dispatch (command: Command): Promise<CommandResult> {
     const handler = this.commandHandlerProvider(command.type);
     const validator = this.commandValidatorProvider(command.type);

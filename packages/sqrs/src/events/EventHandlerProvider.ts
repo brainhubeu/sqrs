@@ -5,9 +5,16 @@ export const eventHandlerProviderId = depId<EventHandlerProvider>('EventHandlerP
 
 export type EventHandlerProvider = (type: string) => EventHandler[];
 
-export const containerEventHandlerProviderFactory = (container: Container): EventHandlerProvider => {
+/**
+ * Creates a function that resolves event handler from the container for a given event by it's type
+ *
+ * @export
+ * @param {Container} container
+ * @returns {EventHandlerProvider}
+ */
+export function containerEventHandlerProviderFactory (container: Container): EventHandlerProvider {
   return (type) => {
     const id = eventHandlerId(type);
     return container.getAll(id);
   };
-};
+}

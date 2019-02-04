@@ -13,6 +13,14 @@ export class DefaultEventBus implements EventBus {
   ) {
   }
 
+  /**
+   * Raises and event and waits until all promise handlers have executed
+   * rejecting with error of first handler that failed (without stopping others)
+   *
+   * @param {Event} event
+   * @returns
+   * @memberof DefaultEventBus
+   */
   public raise (event: Event) {
     const handlers = this.handlerProvider(event.type) || [];
 

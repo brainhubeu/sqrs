@@ -32,7 +32,7 @@
   },
   "peerDependencies": {
     "inversify": "^5.0.0",
-    "sqrs": "^0.0.1"
+    "sqrs": "^1.0.0"
   },
   "jest": {
     "preset": "ts-jest",

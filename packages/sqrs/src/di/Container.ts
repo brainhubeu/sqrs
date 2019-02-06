@@ -1,9 +1,11 @@
+/**
+ * @module sqrs
+ */
 import { DependencyIdentifier } from './dependencies';
 
 /**
  * Interface of container used to resolve dependencies
  *
- * @export
  * @interface Container
  */
 export interface Container {

@@ -1,12 +1,21 @@
+/**
+ * @module sqrs
+ */
 import { Query } from './query';
 import { depId } from '../di';
 
-export const queryHandlerId = (queryName: string) => depId<QueryHandler>(`QueryHandler<${queryName}>`, true);
+/**
+ * Returns reusable DependencyIdentifier for given query name identifying query handler.
+ * @param {string} queryName - query name
+ * @returns {DependencyIdentifier<QueryHandler>}
+ */
+export function queryHandlerId (queryName: string) {
+  return depId<QueryHandler>(`QueryHandler<${queryName}>`, true);
+}
 
 /**
  * Base interface that query handlers implement
  *
- * @export
  * @interface QueryHandler
  * @template TQuery - type of handled query
  */

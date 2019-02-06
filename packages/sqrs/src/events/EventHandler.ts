@@ -1,12 +1,21 @@
+/**
+ * @module sqrs
+ */
 import { Event } from './Event';
-import { depId } from '../di';
+import { depId, DependencyIdentifier } from '../di';
 
-export const eventHandlerId = (type: string) => depId<EventHandler>(`EventHandler<${type}>`, true);
+/**
+ * Returns reusable DependencyIdentifier for given event type identifying event handler.
+ * @param {string} type - event type
+ * @returns {DependencyIdentifier<EventHandler>}
+ */
+export function eventHandlerId (type: string): DependencyIdentifier<EventHandler> {
+  return depId<EventHandler>(`EventHandler<${type}>`, true);
+}
 
 /**
  * Base interface that event handlers implement
  *
- * @export
  * @interface CommandHandler
  * @template TCommand - type of handled event
  */

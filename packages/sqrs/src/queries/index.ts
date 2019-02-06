@@ -1,3 +1,6 @@
+/**
+ * @module sqrs
+ */
 export * from './Query';
 export * from './QueryExecutor';
 export * from './QueryHandler';

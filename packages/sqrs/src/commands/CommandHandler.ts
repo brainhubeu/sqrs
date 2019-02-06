@@ -1,12 +1,22 @@
-import { depId } from '../di/dependencies';
+/**
+ * @module sqrs
+ */
+import { depId, DependencyIdentifier } from '../di/dependencies';
 import { Command } from './Command';
 
-export const commandHandlerId = (type: string) => depId<CommandHandler>(`CommandHandler<${type}>`, true);
+/**
+ * Returns reusable DependencyIdentifier for given command type identifying command handler.
+ *
+ * @param {string} type - command type
+ * @returns {DependencyIdentifier<CommandHandler>}
+ */
+export function commandHandlerId (type: string): DependencyIdentifier<CommandHandler> {
+  return depId<CommandHandler>(`CommandHandler<${type}>`, true);
+}
 
 /**
  * Base interface that command handlers implement
  *
- * @export
  * @interface CommandHandler
  * @template TCommand - type of handled command
  */

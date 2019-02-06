@@ -1,9 +1,11 @@
+/**
+ * @module sqrs
+ */
 import { BoundType } from '../di';
 
 /**
  * Base interface that queries implement
  *
- * @export
  * @interface Query
  * @extends {BoundType<TReturnValue>}
  * @template TName - query name type

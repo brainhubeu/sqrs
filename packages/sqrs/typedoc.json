@@ -1,0 +1,8 @@
+{
+  "mode": "modules",
+  "readme": "none",
+  "theme": "markdown",
+  "project": "tsconfig.json",
+  "exclude": "**/errors/*",
+  "excludePrivate": true
+}

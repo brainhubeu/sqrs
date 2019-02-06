@@ -1,3 +1,6 @@
+/**
+ * @module sqrs
+ */
 import { EventBus } from './EventBus';
 import { Dependencies } from '../di';
 import { eventHandlerProviderId, EventHandlerProvider } from './EventHandlerProvider';

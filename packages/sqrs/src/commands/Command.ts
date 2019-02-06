@@ -1,7 +1,10 @@
 /**
+ * @module sqrs
+ */
+
+/**
  * Base interface that commands implement
  *
- * @export
  * @interface Command
  * @template T - type of command
  */

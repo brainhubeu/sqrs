@@ -8,7 +8,10 @@
     "test": "jest",
     "lint": "tslint --project ./tsconfig.json 'src/**/*'",
     "prebuild": "rimraf dist",
-    "build": "tsc --outDir dist"
+    "build": "tsc --outDir dist",
+    "predoc": "rimraf ../../docs/api",
+    "doc": "typedoc --options typedoc.json --out ../../docs/api",
+    "doc2": "typedoc --mode modules --readme none --theme markdown --project tsconfig.json --exclude '**/errors/*' --excludePrivate --out ../../docs/api"
   },
   "keywords": [
     "cqrs",
@@ -35,6 +38,9 @@
     "rimraf": "^2.6.2",
     "ts-jest": "^23.10.5",
     "tslint": "^5.11.0",
+    "typedoc": "^0.14.2",
+    "typedoc-plugin-external-module-name": "^2.0.0",
+    "typedoc-plugin-markdown": "^1.1.25",
     "typescript": "^3.1.6"
   },
   "jest": {

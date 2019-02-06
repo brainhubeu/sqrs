@@ -1,12 +1,22 @@
-import { depId } from '../di/dependencies';
+/**
+ * @module sqrs
+ */
+import { depId, DependencyIdentifier } from '../di/dependencies';
 import { Command } from './Command';
 
-export const commandValidatorId = (type: string) => depId<CommandValidator>(`CommandValidator<${type}>`, true);
+/**
+ * Returns reusable DependencyIdentifier for given command type identifying command validator.
+ *
+ * @param {string} type
+ * @returns {DependencyIdentifier<CommandValidator>}
+ */
+export function commandValidatorId (type: string): DependencyIdentifier<CommandValidator> {
+  return depId<CommandValidator>(`CommandValidator<${type}>`, true);
+}
 
 /**
  * Generic command validation result
  *
- * @export
  * @interface CommandValidationResult
  * @template TError - type of validation error, default string
  */
@@ -30,7 +40,6 @@ export interface CommandValidationResult<TError = string> {
 /**
  * Base interface that command validators implement
  *
- * @export
  * @interface CommandValidator
  * @template TCommand - type of command that validator can validate
  */

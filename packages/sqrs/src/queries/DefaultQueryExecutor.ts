@@ -1,3 +1,6 @@
+/**
+ * @module sqrs
+ */
 import { QueryExecutor } from './QueryExecutor';
 import { Dependencies } from '../di';
 import { queryHandlerProviderId, QueryHandlerProvider } from './QueryHandlerProvider';

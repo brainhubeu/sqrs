@@ -1,3 +1,6 @@
+/**
+ * @module sqrs
+ */
 import { CommandBus } from './CommandBus';
 import { Command } from './Command';
 import { Dependencies } from '../di';
@@ -8,7 +11,6 @@ import { CommandValidatorProvider, commandValidatorProviderId } from './CommandV
 /**
  * Generic interface describing result of running command
  *
- * @export
  * @interface CommandResult
  * @template TValidationError
  */

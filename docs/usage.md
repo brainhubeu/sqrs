@@ -1,10 +1,10 @@
 # Usage
 
 # Table of Contents
-1. [Commands](#1.-commands)
-2. [Queries](#2.-queries)
-3. [Events](#3.-events)
-4. [Dependency Injection](#4.-dependency-injection)
+1. [Commands](#1-commands)
+2. [Queries](#2-queries)
+3. [Events](#3-events)
+4. [Dependency Injection](#4-dependency-injection)
 
 # 1. Commands
 

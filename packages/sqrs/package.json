@@ -26,6 +26,10 @@
     "event"
   ],
   "author": "rkostrzewski",
+  "repository": {
+    "url": "http://github.com/rkostrzewski/sqrs",
+    "type": "git"
+  },
   "files": [
     "dist"
   ],

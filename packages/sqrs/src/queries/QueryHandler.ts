@@ -1,7 +1,7 @@
 /**
  * @module sqrs
  */
-import { Query } from './query';
+import { Query } from './Query';
 import { depId } from '../di';
 
 /**

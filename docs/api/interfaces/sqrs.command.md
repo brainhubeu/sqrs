@@ -1,18 +1,20 @@
-[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [Command](../interfaces/sqrs.command.md)
+[@brainhubeu/sqrs](../README.md) › [sqrs](../modules/sqrs.md) › [Command](sqrs.command.md)
 
-# Interface: Command
+# Interface: Command <**T**>
 
 Base interface that commands implement
 
-*__interface__*: Command
-
-*__template__*: T - type of command
+**`interface`** Command
 
 ## Type parameters
-#### T :  `string`
+
+▪ **T**: *string*
+
+type of command
+
 ## Hierarchy
 
-**Command**
+* **Command**
 
 ## Index
 
@@ -20,17 +22,10 @@ Base interface that commands implement
 
 * [type](sqrs.command.md#type)
 
----
-
 ## Properties
-
-<a id="type"></a>
 
 ###  type
 
-**● type**: *`T`*
+• **type**: *T*
 
-*Defined in [commands/Command.ts:12](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/Command.ts#L12)*
-
-___
-
+*Defined in [commands/Command.ts:12](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/Command.ts#L12)*

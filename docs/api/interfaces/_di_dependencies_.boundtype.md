@@ -28,7 +28,7 @@ Interface that is used to guarantee type safety when TypeScript infers types
 
 • **[boundTypeSymbol]**? : *T*
 
-*Defined in [di/dependencies.ts:20](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/di/dependencies.ts#L20)*
+*Defined in [di/dependencies.ts:20](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/di/dependencies.ts#L20)*
 
 Used only to guarantee type safety don't use this field directly as it will always be empty.
 

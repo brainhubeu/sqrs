@@ -18,6 +18,6 @@
 
 • **commandBusId**: *symbol & [BoundType](../interfaces/_di_dependencies_.boundtype.md)‹[CommandBus](../interfaces/_commands_commandbus_.commandbus.md)‹any››* = depId<CommandBus>('CommandBus')
 
-*Defined in [commands/CommandBus.ts:10](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/CommandBus.ts#L10)*
+*Defined in [commands/CommandBus.ts:10](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/CommandBus.ts#L10)*
 
 Dependency Identifier of CommandBus

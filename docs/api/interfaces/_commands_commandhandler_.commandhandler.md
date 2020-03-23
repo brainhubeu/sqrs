@@ -28,7 +28,7 @@ type of handled command
 
 ▸ **handle**(`command`: TCommand): *void | Promise‹void›*
 
-*Defined in [commands/CommandHandler.ts:31](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/CommandHandler.ts#L31)*
+*Defined in [commands/CommandHandler.ts:31](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/CommandHandler.ts#L31)*
 
 Handles dispatched command
 

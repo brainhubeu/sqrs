@@ -30,7 +30,7 @@
 
 \+ **new DefaultQueryExecutor**(`queryHandlerProvider`: [QueryHandlerProvider](../interfaces/_queries_queryhandlerprovider_.queryhandlerprovider.md)): *[DefaultQueryExecutor](_queries_defaultqueryexecutor_.defaultqueryexecutor.md)*
 
-*Defined in [queries/DefaultQueryExecutor.ts:13](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/queries/DefaultQueryExecutor.ts#L13)*
+*Defined in [queries/DefaultQueryExecutor.ts:13](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/queries/DefaultQueryExecutor.ts#L13)*
 
 **Parameters:**
 
@@ -48,7 +48,7 @@ Name | Type |
     queryHandlerProviderId
   ]
 
-*Defined in [queries/DefaultQueryExecutor.ts:11](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/queries/DefaultQueryExecutor.ts#L11)*
+*Defined in [queries/DefaultQueryExecutor.ts:11](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/queries/DefaultQueryExecutor.ts#L11)*
 
 ## Methods
 
@@ -58,7 +58,7 @@ Name | Type |
 
 *Implementation of [QueryExecutor](../interfaces/_queries_queryexecutor_.queryexecutor.md)*
 
-*Defined in [queries/DefaultQueryExecutor.ts:20](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/queries/DefaultQueryExecutor.ts#L20)*
+*Defined in [queries/DefaultQueryExecutor.ts:20](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/queries/DefaultQueryExecutor.ts#L20)*
 
 **Type parameters:**
 

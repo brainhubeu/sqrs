@@ -29,7 +29,7 @@ type of validation error, default string
 
 • **errors**? : *TError[]*
 
-*Defined in [commands/CommandValidator.ts:37](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/CommandValidator.ts#L37)*
+*Defined in [commands/CommandValidator.ts:37](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/CommandValidator.ts#L37)*
 
 Array of validation errors
 
@@ -41,7 +41,7 @@ ___
 
 • **isValid**: *boolean*
 
-*Defined in [commands/CommandValidator.ts:30](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/CommandValidator.ts#L30)*
+*Defined in [commands/CommandValidator.ts:30](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/CommandValidator.ts#L30)*
 
 Flag that indicates if the command was validated successfully
 

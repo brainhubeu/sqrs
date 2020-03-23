@@ -22,7 +22,7 @@
 
 • **commandHandlerProviderId**: *symbol & [BoundType](../interfaces/_di_dependencies_.boundtype.md)‹[CommandHandlerProvider](../interfaces/_commands_commandhandlerprovider_.commandhandlerprovider.md)›* = depId<CommandHandlerProvider>('CommandHandlerProvider')
 
-*Defined in [commands/CommandHandlerProvider.ts:11](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/CommandHandlerProvider.ts#L11)*
+*Defined in [commands/CommandHandlerProvider.ts:11](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/CommandHandlerProvider.ts#L11)*
 
 DependencyIdentifier of CommandHandlerProvider
 
@@ -32,7 +32,7 @@ DependencyIdentifier of CommandHandlerProvider
 
 ▸ **containerCommandHandlerProviderFactory**(`container`: [Container](../interfaces/_di_container_.container.md)): *[CommandHandlerProvider](../interfaces/_commands_commandhandlerprovider_.commandhandlerprovider.md)*
 
-*Defined in [commands/CommandHandlerProvider.ts:29](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/CommandHandlerProvider.ts#L29)*
+*Defined in [commands/CommandHandlerProvider.ts:29](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/CommandHandlerProvider.ts#L29)*
 
 Creates a function that resolves command handler from the container for a given command by it's type
 

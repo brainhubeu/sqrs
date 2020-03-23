@@ -18,7 +18,7 @@
 
 ▸ **queryHandlerId**(`queryName`: string): *symbol & [BoundType](../interfaces/_di_dependencies_.boundtype.md)‹[QueryHandler](../interfaces/_queries_queryhandler_.queryhandler.md)‹[Query](../interfaces/_queries_query_.query.md)‹string, unknown›››*
 
-*Defined in [queries/QueryHandler.ts:12](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/queries/QueryHandler.ts#L12)*
+*Defined in [queries/QueryHandler.ts:12](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/queries/QueryHandler.ts#L12)*
 
 Returns reusable DependencyIdentifier for given query name identifying query handler.
 

@@ -14,7 +14,7 @@ A function that resolves a command validator by the command type.
 
 ▸ <**T**>(`type`: T): *[CommandValidator](_commands_commandvalidator_.commandvalidator.md)‹[Command](sqrs.command.md)‹T›› | undefined*
 
-*Defined in [commands/CommandValidatorProvider.ts:19](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/CommandValidatorProvider.ts#L19)*
+*Defined in [commands/CommandValidatorProvider.ts:19](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/CommandValidatorProvider.ts#L19)*
 
 A function that resolves a command validator by the command type.
 

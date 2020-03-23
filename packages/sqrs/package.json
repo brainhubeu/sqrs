@@ -1,6 +1,6 @@
 {
   "name": "@brainhubeu/sqrs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CQRS framework for JavaScript/TypeScript servers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -7,6 +7,6 @@ install:
     - npm install
     - npx lerna bootstrap
 script:
-    - npm run lint
     - npm run build
+    - npm run lint
     - npm run test

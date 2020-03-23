@@ -30,7 +30,7 @@
 
 \+ **new DefaultEventBus**(`handlerProvider`: [EventHandlerProvider](../modules/_events_eventhandlerprovider_.md#eventhandlerprovider)): *[DefaultEventBus](_events_defaulteventbus_.defaulteventbus.md)*
 
-*Defined in [events/DefaultEventBus.ts:12](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/events/DefaultEventBus.ts#L12)*
+*Defined in [events/DefaultEventBus.ts:12](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/events/DefaultEventBus.ts#L12)*
 
 **Parameters:**
 
@@ -48,7 +48,7 @@ Name | Type |
     eventHandlerProviderId
   ]
 
-*Defined in [events/DefaultEventBus.ts:10](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/events/DefaultEventBus.ts#L10)*
+*Defined in [events/DefaultEventBus.ts:10](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/events/DefaultEventBus.ts#L10)*
 
 ## Methods
 
@@ -58,7 +58,7 @@ Name | Type |
 
 *Implementation of [EventBus](../interfaces/_events_eventbus_.eventbus.md)*
 
-*Defined in [events/DefaultEventBus.ts:27](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/events/DefaultEventBus.ts#L27)*
+*Defined in [events/DefaultEventBus.ts:27](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/events/DefaultEventBus.ts#L27)*
 
 Raises and event and waits until all promise handlers have executed
 rejecting with error of first handler that failed (without stopping others)

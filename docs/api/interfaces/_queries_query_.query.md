@@ -37,7 +37,7 @@ return value type
 
 *Inherited from [BoundType](_di_dependencies_.boundtype.md).[[boundTypeSymbol]](_di_dependencies_.boundtype.md#optional-[boundtypesymbol])*
 
-*Defined in [di/dependencies.ts:20](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/di/dependencies.ts#L20)*
+*Defined in [di/dependencies.ts:20](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/di/dependencies.ts#L20)*
 
 Used only to guarantee type safety don't use this field directly as it will always be empty.
 
@@ -51,4 +51,4 @@ ___
 
 • **queryName**: *TName*
 
-*Defined in [queries/Query.ts:15](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/queries/Query.ts#L15)*
+*Defined in [queries/Query.ts:15](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/queries/Query.ts#L15)*

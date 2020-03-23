@@ -28,4 +28,4 @@ type of event
 
 • **type**: *T*
 
-*Defined in [events/Event.ts:11](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/events/Event.ts#L11)*
+*Defined in [events/Event.ts:11](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/events/Event.ts#L11)*

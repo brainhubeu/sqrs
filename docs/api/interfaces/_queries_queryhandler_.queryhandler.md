@@ -28,7 +28,7 @@ type of handled query
 
 ▸ **execute**(`query`: TQuery): *TQuery extends Query<string, infer TResult> ? Promise<TResult> : never*
 
-*Defined in [queries/QueryHandler.ts:30](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/queries/QueryHandler.ts#L30)*
+*Defined in [queries/QueryHandler.ts:30](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/queries/QueryHandler.ts#L30)*
 
 Executes a query returning results
 

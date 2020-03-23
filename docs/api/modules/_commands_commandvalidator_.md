@@ -19,7 +19,7 @@
 
 ▸ **commandValidatorId**(`type`: string): *[DependencyIdentifier](_di_dependencies_.md#dependencyidentifier)‹[CommandValidator](../interfaces/_commands_commandvalidator_.commandvalidator.md)›*
 
-*Defined in [commands/CommandValidator.ts:13](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/CommandValidator.ts#L13)*
+*Defined in [commands/CommandValidator.ts:13](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/CommandValidator.ts#L13)*
 
 Returns reusable DependencyIdentifier for given command type identifying command validator.
 

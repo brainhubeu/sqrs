@@ -28,7 +28,7 @@ Base interface that event handlers implement
 
 ▸ **handle**(`event`: TEvent): *void | Promise‹void›*
 
-*Defined in [events/EventHandler.ts:30](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/events/EventHandler.ts#L30)*
+*Defined in [events/EventHandler.ts:30](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/events/EventHandler.ts#L30)*
 
 Handles an event
 

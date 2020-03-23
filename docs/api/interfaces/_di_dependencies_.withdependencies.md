@@ -42,7 +42,7 @@ const bar: WithDependencies = Foo;
 
 \+ **new WithDependencies**(...`args`: T): *R*
 
-*Defined in [di/dependencies.ts:76](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/di/dependencies.ts#L76)*
+*Defined in [di/dependencies.ts:76](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/di/dependencies.ts#L76)*
 
 **Parameters:**
 
@@ -58,4 +58,4 @@ Name | Type |
 
 • **dependencies**: *[DependencyIdentifiers](../modules/_di_dependencies_.md#dependencyidentifiers)‹T›*
 
-*Defined in [di/dependencies.ts:76](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/di/dependencies.ts#L76)*
+*Defined in [di/dependencies.ts:76](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/di/dependencies.ts#L76)*

@@ -30,7 +30,7 @@
 
 \+ **new DefaultCommandBus**(`commandHandlerProvider`: [CommandHandlerProvider](../interfaces/_commands_commandhandlerprovider_.commandhandlerprovider.md), `commandValidatorProvider`: [CommandValidatorProvider](../interfaces/_commands_commandvalidatorprovider_.commandvalidatorprovider.md)): *[DefaultCommandBus](_commands_defaultcommandbus_.defaultcommandbus.md)*
 
-*Defined in [commands/DefaultCommandBus.ts:28](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/DefaultCommandBus.ts#L28)*
+*Defined in [commands/DefaultCommandBus.ts:28](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/DefaultCommandBus.ts#L28)*
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ Name | Type |
     commandValidatorProviderId
   ]
 
-*Defined in [commands/DefaultCommandBus.ts:25](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/DefaultCommandBus.ts#L25)*
+*Defined in [commands/DefaultCommandBus.ts:25](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/DefaultCommandBus.ts#L25)*
 
 ## Methods
 
@@ -60,7 +60,7 @@ Name | Type |
 
 *Implementation of [CommandBus](../interfaces/_commands_commandbus_.commandbus.md)*
 
-*Defined in [commands/DefaultCommandBus.ts:43](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/DefaultCommandBus.ts#L43)*
+*Defined in [commands/DefaultCommandBus.ts:43](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/DefaultCommandBus.ts#L43)*
 
 Dispatches a command in the same process and returns promise resolving with command result
 

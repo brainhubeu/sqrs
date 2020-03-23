@@ -14,7 +14,7 @@ A function that resolves a command handler by the command type.
 
 ▸ <**T**>(`type`: T): *[CommandHandler](_commands_commandhandler_.commandhandler.md)‹[Command](sqrs.command.md)‹T›› | undefined*
 
-*Defined in [commands/CommandHandlerProvider.ts:19](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/CommandHandlerProvider.ts#L19)*
+*Defined in [commands/CommandHandlerProvider.ts:19](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/CommandHandlerProvider.ts#L19)*
 
 A function that resolves a command handler by the command type.
 

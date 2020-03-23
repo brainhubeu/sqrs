@@ -29,7 +29,7 @@
 
 Ƭ **Dependencies**:
 
-*Defined in [di/dependencies.ts:55](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/di/dependencies.ts#L55)*
+*Defined in [di/dependencies.ts:55](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/di/dependencies.ts#L55)*
 
 Describes DependencyIdentifiers of given class or function.
 
@@ -51,7 +51,7 @@ ___
 
 Ƭ **DependencyIdentifier**: *symbol & [BoundType](../interfaces/_di_dependencies_.boundtype.md)‹T›*
 
-*Defined in [di/dependencies.ts:26](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/di/dependencies.ts#L26)*
+*Defined in [di/dependencies.ts:26](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/di/dependencies.ts#L26)*
 
 Describes identifier of a dependency bound to a type
 
@@ -61,7 +61,7 @@ ___
 
 Ƭ **DependencyIdentifiers**: *object*
 
-*Defined in [di/dependencies.ts:40](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/di/dependencies.ts#L40)*
+*Defined in [di/dependencies.ts:40](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/di/dependencies.ts#L40)*
 
 #### Type declaration:
 
@@ -71,7 +71,7 @@ ___
 
 • **boundTypeSymbol**: *unique symbol* = Symbol('__boundTypeSymbol__')
 
-*Defined in [di/dependencies.ts:4](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/di/dependencies.ts#L4)*
+*Defined in [di/dependencies.ts:4](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/di/dependencies.ts#L4)*
 
 ## Functions
 
@@ -79,7 +79,7 @@ ___
 
 ▸ **depId**<**T**>(`id`: string, `reuse`: boolean): *[DependencyIdentifier](_di_dependencies_.md#dependencyidentifier)‹T›*
 
-*Defined in [di/dependencies.ts:36](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/di/dependencies.ts#L36)*
+*Defined in [di/dependencies.ts:36](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/di/dependencies.ts#L36)*
 
 Creates a symbol for given string that can be used as a dependency indentifier
 

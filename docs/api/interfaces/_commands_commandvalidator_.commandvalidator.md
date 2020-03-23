@@ -28,7 +28,7 @@ type of command that validator can validate
 
 ▸ **validate**(`command`: TCommand): *[CommandValidationResult](_commands_commandvalidator_.commandvalidationresult.md) | Promise‹[CommandValidationResult](_commands_commandvalidator_.commandvalidationresult.md)›*
 
-*Defined in [commands/CommandValidator.ts:54](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/CommandValidator.ts#L54)*
+*Defined in [commands/CommandValidator.ts:54](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/CommandValidator.ts#L54)*
 
 Validates command
 

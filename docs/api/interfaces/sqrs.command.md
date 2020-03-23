@@ -28,4 +28,4 @@ type of command
 
 • **type**: *T*
 
-*Defined in [commands/Command.ts:12](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/Command.ts#L12)*
+*Defined in [commands/Command.ts:12](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/Command.ts#L12)*

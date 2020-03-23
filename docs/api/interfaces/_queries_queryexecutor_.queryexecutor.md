@@ -27,7 +27,7 @@ by dispatching them to appropriate query handlers
 
 ▸ **execute**<**T**>(`query`: [Query](_queries_query_.query.md)‹string, T›): *Promise‹T›*
 
-*Defined in [queries/QueryExecutor.ts:27](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/queries/QueryExecutor.ts#L27)*
+*Defined in [queries/QueryExecutor.ts:27](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/queries/QueryExecutor.ts#L27)*
 
 Executes a given query by dispatching it to a query handler
 

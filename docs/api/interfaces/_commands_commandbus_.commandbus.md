@@ -32,7 +32,7 @@ type of result returned after dispatching a command
 
 ▸ **dispatch**(`command`: [Command](sqrs.command.md)): *Promise‹T›*
 
-*Defined in [commands/CommandBus.ts:26](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/CommandBus.ts#L26)*
+*Defined in [commands/CommandBus.ts:26](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/CommandBus.ts#L26)*
 
 Dispatches a command to appropriate command handler
 

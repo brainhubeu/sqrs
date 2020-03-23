@@ -22,7 +22,7 @@
 
 • **queryHandlerProviderId**: *symbol & [BoundType](../interfaces/_di_dependencies_.boundtype.md)‹[QueryHandlerProvider](../interfaces/_queries_queryhandlerprovider_.queryhandlerprovider.md)›* = depId<QueryHandlerProvider>('QueryHandlerProvider')
 
-*Defined in [queries/QueryHandlerProvider.ts:11](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/queries/QueryHandlerProvider.ts#L11)*
+*Defined in [queries/QueryHandlerProvider.ts:11](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/queries/QueryHandlerProvider.ts#L11)*
 
 DependencyIdentifier of QueryHandlerProvider
 
@@ -32,7 +32,7 @@ DependencyIdentifier of QueryHandlerProvider
 
 ▸ **containerQueryHandlerProviderFactory**(`container`: [Container](../interfaces/_di_container_.container.md)): *[QueryHandlerProvider](../interfaces/_queries_queryhandlerprovider_.queryhandlerprovider.md)*
 
-*Defined in [queries/QueryHandlerProvider.ts:29](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/queries/QueryHandlerProvider.ts#L29)*
+*Defined in [queries/QueryHandlerProvider.ts:29](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/queries/QueryHandlerProvider.ts#L29)*
 
 Creates a function that resolves query handler from the container for a given query by it's queryName
 

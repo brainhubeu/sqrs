@@ -29,7 +29,7 @@ Generic interface describing result of running command
 
 • **executionError**? : *Error*
 
-*Defined in [commands/DefaultCommandBus.ts:21](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/DefaultCommandBus.ts#L21)*
+*Defined in [commands/DefaultCommandBus.ts:21](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/DefaultCommandBus.ts#L21)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **isValid**: *boolean*
 
-*Defined in [commands/DefaultCommandBus.ts:19](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/DefaultCommandBus.ts#L19)*
+*Defined in [commands/DefaultCommandBus.ts:19](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/DefaultCommandBus.ts#L19)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 • **success**: *boolean*
 
-*Defined in [commands/DefaultCommandBus.ts:18](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/DefaultCommandBus.ts#L18)*
+*Defined in [commands/DefaultCommandBus.ts:18](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/DefaultCommandBus.ts#L18)*
 
 ___
 
@@ -53,4 +53,4 @@ ___
 
 • **validationErrors**? : *TValidationError[]*
 
-*Defined in [commands/DefaultCommandBus.ts:20](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/commands/DefaultCommandBus.ts#L20)*
+*Defined in [commands/DefaultCommandBus.ts:20](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/commands/DefaultCommandBus.ts#L20)*

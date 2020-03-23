@@ -18,6 +18,6 @@
 
 • **queryExecutorId**: *symbol & [BoundType](../interfaces/_di_dependencies_.boundtype.md)‹[QueryExecutor](../interfaces/_queries_queryexecutor_.queryexecutor.md)›* = depId<QueryExecutor>('QueryExecutor')
 
-*Defined in [queries/QueryExecutor.ts:10](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/queries/QueryExecutor.ts#L10)*
+*Defined in [queries/QueryExecutor.ts:10](https://github.com/brainhubeu/sqrs/blob/master/packages/sqrs/src/queries/QueryExecutor.ts#L10)*
 
 Dependency Identifier for QueryExecutor

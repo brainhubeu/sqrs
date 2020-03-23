@@ -10,7 +10,7 @@ When paired with a dependency injection framework it provides a fully-fledged in
 
 To install sqrs run
 
-`npm install sqrs`
+`npm install @brainhubeu/sqrs`
 
 the packages comes with it's own TypeScript types.
 

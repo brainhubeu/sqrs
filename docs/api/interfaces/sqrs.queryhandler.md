@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [QueryHandler](../interfaces/sqrs.queryhandler.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [QueryHandler](../interfaces/sqrs.queryhandler.md)
 
 # Interface: QueryHandler
 
@@ -30,7 +30,7 @@ Base interface that query handlers implement
 
 ▸ **execute**(query: *`TQuery`*): `TQuery extends Query&lt;string, infer TResult&gt; ? Promise&lt;TResult&gt; : never`
 
-*Defined in [queries/QueryHandler.ts:30](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/queries/QueryHandler.ts#L30)*
+*Defined in [queries/QueryHandler.ts:30](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/queries/QueryHandler.ts#L30)*
 
 Executes a query returning results
 

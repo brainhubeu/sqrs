@@ -1,4 +1,4 @@
 import { Connection } from 'typeorm';
-import { depId } from 'sqrs';
+import { depId } from '@brainhubeu/sqrs';
 
 export const connectionId = depId<Connection>('Connection');

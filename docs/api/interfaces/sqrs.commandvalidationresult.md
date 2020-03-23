@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [CommandValidationResult](../interfaces/sqrs.commandvalidationresult.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [CommandValidationResult](../interfaces/sqrs.commandvalidationresult.md)
 
 # Interface: CommandValidationResult
 
@@ -31,7 +31,7 @@ Generic command validation result
 
 **● errors**: *`TError`[]*
 
-*Defined in [commands/CommandValidator.ts:37](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/CommandValidator.ts#L37)*
+*Defined in [commands/CommandValidator.ts:37](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/CommandValidator.ts#L37)*
 
 Array of validation errors
 
@@ -46,7 +46,7 @@ ___
 
 **● isValid**: *`boolean`*
 
-*Defined in [commands/CommandValidator.ts:30](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/CommandValidator.ts#L30)*
+*Defined in [commands/CommandValidator.ts:30](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/CommandValidator.ts#L30)*
 
 Flag that indicates if the command was validated successfully
 

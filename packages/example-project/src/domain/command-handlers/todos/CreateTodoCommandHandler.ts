@@ -1,4 +1,4 @@
-import { CommandHandler, Dependencies, EventBus, eventBusId } from 'sqrs';
+import { CommandHandler, Dependencies, EventBus, eventBusId } from '@brainhubeu/sqrs';
 import { CreateTodoCommand, TodoCommandTypes } from '../../commands/todos';
 import { TodoRepository, todoRepositoryId } from '../../repositories/todoRepository';
 import { todoCreatedEvent } from '../../events/todos';

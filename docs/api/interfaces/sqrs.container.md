@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [Container](../interfaces/sqrs.container.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [Container](../interfaces/sqrs.container.md)
 
 # Interface: Container
 
@@ -28,7 +28,7 @@ Interface of container used to resolve dependencies
 
 ▸ **get**<`T`>(identifier: *[DependencyIdentifier](../modules/sqrs.md#dependencyidentifier)<`T`>*): `T` \| `undefined`
 
-*Defined in [di/Container.ts:21](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/di/Container.ts#L21)*
+*Defined in [di/Container.ts:21](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/di/Container.ts#L21)*
 
 Resolves an instance of type by it's identifier. This method may throw an exception if type is not found or return undefined.
 
@@ -54,7 +54,7 @@ ___
 
 ▸ **getAll**<`T`>(identifier: *[DependencyIdentifier](../modules/sqrs.md#dependencyidentifier)<`T`>*): `T`[]
 
-*Defined in [di/Container.ts:31](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/di/Container.ts#L31)*
+*Defined in [di/Container.ts:31](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/di/Container.ts#L31)*
 
 Resolves all registered instances of type by it's identifier. This method never throws and returns empty array when no registrations have been found.
 
@@ -80,7 +80,7 @@ ___
 
 ▸ **isBound**(identifier: *[DependencyIdentifier](../modules/sqrs.md#dependencyidentifier)<`any`>*): `boolean`
 
-*Defined in [di/Container.ts:40](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/di/Container.ts#L40)*
+*Defined in [di/Container.ts:40](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/di/Container.ts#L40)*
 
 Returns boolean value indicating if given identifier was registered and can be resolved. This method never throws.
 

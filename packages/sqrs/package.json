@@ -1,5 +1,5 @@
 {
-  "name": "sqrs",
+  "name": "@brainhubeu/sqrs",
   "version": "1.0.1",
   "description": "CQRS framework for JavaScript/TypeScript servers",
   "main": "dist/index.js",
@@ -25,9 +25,12 @@
     "driven",
     "event"
   ],
-  "author": "rkostrzewski",
+  "author": {
+    "name" : "Rafał Kostrzewski",
+    "url" : "https://github.com/rkostrzewski"
+  },
   "repository": {
-    "url": "http://github.com/rkostrzewski/sqrs",
+    "url": "http://github.com/brainhubeu/sqrs",
     "type": "git"
   },
   "files": [

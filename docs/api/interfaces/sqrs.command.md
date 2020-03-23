@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [Command](../interfaces/sqrs.command.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [Command](../interfaces/sqrs.command.md)
 
 # Interface: Command
 
@@ -30,7 +30,7 @@ Base interface that commands implement
 
 **● type**: *`T`*
 
-*Defined in [commands/Command.ts:12](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/Command.ts#L12)*
+*Defined in [commands/Command.ts:12](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/Command.ts#L12)*
 
 ___
 

@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [WithDependencies](../interfaces/sqrs.withdependencies.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [WithDependencies](../interfaces/sqrs.withdependencies.md)
 
 # Interface: WithDependencies
 
@@ -39,7 +39,7 @@ Describes a class type with declared dependencies
 
 ⊕ **new WithDependencies**(...args: *`T`*): `R`
 
-*Defined in [di/dependencies.ts:76](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/di/dependencies.ts#L76)*
+*Defined in [di/dependencies.ts:76](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/di/dependencies.ts#L76)*
 
 **Parameters:**
 
@@ -59,7 +59,7 @@ ___
 
 **● dependencies**: *[DependencyIdentifiers](../modules/sqrs.md#dependencyidentifiers)<`T`>*
 
-*Defined in [di/dependencies.ts:76](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/di/dependencies.ts#L76)*
+*Defined in [di/dependencies.ts:76](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/di/dependencies.ts#L76)*
 
 ___
 

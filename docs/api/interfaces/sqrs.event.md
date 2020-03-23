@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [Event](../interfaces/sqrs.event.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [Event](../interfaces/sqrs.event.md)
 
 # Interface: Event
 
@@ -30,7 +30,7 @@ Base interface that events implement
 
 **● type**: *`T`*
 
-*Defined in [events/Event.ts:11](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/events/Event.ts#L11)*
+*Defined in [events/Event.ts:11](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/events/Event.ts#L11)*
 
 ___
 

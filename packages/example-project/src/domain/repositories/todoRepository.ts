@@ -1,5 +1,5 @@
 import { Repository } from 'typeorm';
-import { depId } from 'sqrs';
+import { depId } from '@brainhubeu/sqrs';
 import Todo from '../models/Todo';
 
 export const todoRepositoryId = depId<TodoRepository>('TodoRepository');

@@ -6,7 +6,7 @@ import {
   commandHandlerId,
   eventHandlerId,
   queryHandlerId
-} from 'sqrs';
+} from '@brainhubeu/sqrs';
 import { interfaces, METADATA_KEY } from 'inversify';
 import { helpers } from 'inversify-vanillajs-helpers';
 

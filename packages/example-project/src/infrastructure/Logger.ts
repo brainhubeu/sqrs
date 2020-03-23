@@ -1,5 +1,5 @@
 import util from 'util';
-import { depId } from 'sqrs';
+import { depId } from '@brainhubeu/sqrs';
 import chalk from 'chalk';
 
 export const loggerId = depId<Logger>('Logger');

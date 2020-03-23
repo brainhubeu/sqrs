@@ -1,7 +1,7 @@
 import { ContainerModule } from 'inversify';
 import { TodoCommandTypes } from '../commands/todos';
 import { createTodoCommandValidator } from './todos';
-import { CommandValidator, commandValidatorId } from 'sqrs';
+import { CommandValidator, commandValidatorId } from '@brainhubeu/sqrs';
 
 const validators: { [key: string]: CommandValidator } = {
   [TodoCommandTypes.create]: createTodoCommandValidator

@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md)
 
 # External module: sqrs
 
@@ -71,7 +71,7 @@
 
 **Ƭ Dependencies**: *`Dependencies&lt;T&gt;`*
 
-*Defined in [di/dependencies.ts:55](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/di/dependencies.ts#L55)*
+*Defined in [di/dependencies.ts:55](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/di/dependencies.ts#L55)*
 
 Describes DependencyIdentifiers of given class or function.
 
@@ -86,7 +86,7 @@ ___
 
 **Ƭ DependencyIdentifier**: *`symbol` & [BoundType](../interfaces/sqrs.boundtype.md)<`T`>*
 
-*Defined in [di/dependencies.ts:26](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/di/dependencies.ts#L26)*
+*Defined in [di/dependencies.ts:26](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/di/dependencies.ts#L26)*
 
 Describes identifier of a dependency bound to a type
 
@@ -97,7 +97,7 @@ ___
 
 **Ƭ DependencyIdentifiers**: *`object`*
 
-*Defined in [di/dependencies.ts:40](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/di/dependencies.ts#L40)*
+*Defined in [di/dependencies.ts:40](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/di/dependencies.ts#L40)*
 
 #### Type declaration
 
@@ -108,7 +108,7 @@ ___
 
 **Ƭ EventHandlerProvider**: *`function`*
 
-*Defined in [events/EventHandlerProvider.ts:18](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/events/EventHandlerProvider.ts#L18)*
+*Defined in [events/EventHandlerProvider.ts:18](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/events/EventHandlerProvider.ts#L18)*
 
 A function that resolves an event handler by the event type.
 
@@ -137,7 +137,7 @@ ___
 
 **● boundTypeSymbol**: *`unique symbol`* =  Symbol('__boundTypeSymbol__')
 
-*Defined in [di/dependencies.ts:4](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/di/dependencies.ts#L4)*
+*Defined in [di/dependencies.ts:4](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/di/dependencies.ts#L4)*
 
 ___
 <a id="commandbusid"></a>
@@ -146,7 +146,7 @@ ___
 
 **● commandBusId**: *`symbol` & [BoundType](../interfaces/sqrs.boundtype.md)<[CommandBus](../interfaces/sqrs.commandbus.md)<`any`>>* =  depId<CommandBus>('CommandBus')
 
-*Defined in [commands/CommandBus.ts:10](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/CommandBus.ts#L10)*
+*Defined in [commands/CommandBus.ts:10](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/CommandBus.ts#L10)*
 
 Dependency Identifier of CommandBus
 
@@ -157,7 +157,7 @@ ___
 
 **● commandHandlerProviderId**: *`symbol` & [BoundType](../interfaces/sqrs.boundtype.md)<[CommandHandlerProvider](../interfaces/sqrs.commandhandlerprovider.md)>* =  depId<CommandHandlerProvider>('CommandHandlerProvider')
 
-*Defined in [commands/CommandHandlerProvider.ts:11](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/CommandHandlerProvider.ts#L11)*
+*Defined in [commands/CommandHandlerProvider.ts:11](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/CommandHandlerProvider.ts#L11)*
 
 DependencyIdentifier of CommandHandlerProvider
 
@@ -168,7 +168,7 @@ ___
 
 **● commandValidatorProviderId**: *`symbol` & [BoundType](../interfaces/sqrs.boundtype.md)<[CommandValidatorProvider](../interfaces/sqrs.commandvalidatorprovider.md)>* =  depId<CommandValidatorProvider>('CommandValidatorProvider')
 
-*Defined in [commands/CommandValidatorProvider.ts:11](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/CommandValidatorProvider.ts#L11)*
+*Defined in [commands/CommandValidatorProvider.ts:11](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/CommandValidatorProvider.ts#L11)*
 
 DependencyIdentifier of CommandValidatorProvider
 
@@ -179,7 +179,7 @@ ___
 
 **● eventBusId**: *`symbol` & [BoundType](../interfaces/sqrs.boundtype.md)<[EventBus](../interfaces/sqrs.eventbus.md)>* =  depId<EventBus>('EventBus')
 
-*Defined in [events/EventBus.ts:10](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/events/EventBus.ts#L10)*
+*Defined in [events/EventBus.ts:10](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/events/EventBus.ts#L10)*
 
 Dependency Identifier for the EventBus
 
@@ -190,7 +190,7 @@ ___
 
 **● eventHandlerProviderId**: *`symbol` & [BoundType](../interfaces/sqrs.boundtype.md)<`function`>* =  depId<EventHandlerProvider>('EventHandlerProvider')
 
-*Defined in [events/EventHandlerProvider.ts:10](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/events/EventHandlerProvider.ts#L10)*
+*Defined in [events/EventHandlerProvider.ts:10](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/events/EventHandlerProvider.ts#L10)*
 
 DependencyIdentifier of EventHandlerProvider
 
@@ -201,7 +201,7 @@ ___
 
 **● queryExecutorId**: *`symbol` & [BoundType](../interfaces/sqrs.boundtype.md)<[QueryExecutor](../interfaces/sqrs.queryexecutor.md)>* =  depId<QueryExecutor>('QueryExecutor')
 
-*Defined in [queries/QueryExecutor.ts:10](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/queries/QueryExecutor.ts#L10)*
+*Defined in [queries/QueryExecutor.ts:10](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/queries/QueryExecutor.ts#L10)*
 
 Dependency Identifier for QueryExecutor
 
@@ -212,7 +212,7 @@ ___
 
 **● queryHandlerProviderId**: *`symbol` & [BoundType](../interfaces/sqrs.boundtype.md)<[QueryHandlerProvider](../interfaces/sqrs.queryhandlerprovider.md)>* =  depId<QueryHandlerProvider>('QueryHandlerProvider')
 
-*Defined in [queries/QueryHandlerProvider.ts:11](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/queries/QueryHandlerProvider.ts#L11)*
+*Defined in [queries/QueryHandlerProvider.ts:11](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/queries/QueryHandlerProvider.ts#L11)*
 
 DependencyIdentifier of QueryHandlerProvider
 
@@ -226,7 +226,7 @@ ___
 
 ▸ **commandHandlerId**(type: *`string`*): [DependencyIdentifier](sqrs.md#dependencyidentifier)<[CommandHandler](../interfaces/sqrs.commandhandler.md)>
 
-*Defined in [commands/CommandHandler.ts:13](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/CommandHandler.ts#L13)*
+*Defined in [commands/CommandHandler.ts:13](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/CommandHandler.ts#L13)*
 
 Returns reusable DependencyIdentifier for given command type identifying command handler.
 
@@ -245,7 +245,7 @@ ___
 
 ▸ **commandValidatorId**(type: *`string`*): [DependencyIdentifier](sqrs.md#dependencyidentifier)<[CommandValidator](../interfaces/sqrs.commandvalidator.md)>
 
-*Defined in [commands/CommandValidator.ts:13](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/CommandValidator.ts#L13)*
+*Defined in [commands/CommandValidator.ts:13](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/CommandValidator.ts#L13)*
 
 Returns reusable DependencyIdentifier for given command type identifying command validator.
 
@@ -264,7 +264,7 @@ ___
 
 ▸ **containerCommandHandlerProviderFactory**(container: *[Container](../interfaces/sqrs.container.md)*): [CommandHandlerProvider](../interfaces/sqrs.commandhandlerprovider.md)
 
-*Defined in [commands/CommandHandlerProvider.ts:29](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/CommandHandlerProvider.ts#L29)*
+*Defined in [commands/CommandHandlerProvider.ts:29](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/CommandHandlerProvider.ts#L29)*
 
 Creates a function that resolves command handler from the container for a given command by it's type
 
@@ -283,7 +283,7 @@ ___
 
 ▸ **containerCommandValidatorProviderFactory**(container: *[Container](../interfaces/sqrs.container.md)*): [CommandValidatorProvider](../interfaces/sqrs.commandvalidatorprovider.md)
 
-*Defined in [commands/CommandValidatorProvider.ts:29](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/CommandValidatorProvider.ts#L29)*
+*Defined in [commands/CommandValidatorProvider.ts:29](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/CommandValidatorProvider.ts#L29)*
 
 Creates a function that resolves command validator from the container for a given command by it's type
 
@@ -302,7 +302,7 @@ ___
 
 ▸ **containerEventHandlerProviderFactory**(container: *[Container](../interfaces/sqrs.container.md)*): [EventHandlerProvider](sqrs.md#eventhandlerprovider)
 
-*Defined in [events/EventHandlerProvider.ts:26](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/events/EventHandlerProvider.ts#L26)*
+*Defined in [events/EventHandlerProvider.ts:26](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/events/EventHandlerProvider.ts#L26)*
 
 Creates a function that resolves event handler from the container for a given event by it's type
 
@@ -321,7 +321,7 @@ ___
 
 ▸ **containerQueryHandlerProviderFactory**(container: *[Container](../interfaces/sqrs.container.md)*): [QueryHandlerProvider](../interfaces/sqrs.queryhandlerprovider.md)
 
-*Defined in [queries/QueryHandlerProvider.ts:29](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/queries/QueryHandlerProvider.ts#L29)*
+*Defined in [queries/QueryHandlerProvider.ts:29](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/queries/QueryHandlerProvider.ts#L29)*
 
 Creates a function that resolves query handler from the container for a given query by it's queryName
 
@@ -340,7 +340,7 @@ ___
 
 ▸ **depId**<`T`>(id: *`string`*, reuse?: *`boolean`*): [DependencyIdentifier](sqrs.md#dependencyidentifier)<`T`>
 
-*Defined in [di/dependencies.ts:36](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/di/dependencies.ts#L36)*
+*Defined in [di/dependencies.ts:36](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/di/dependencies.ts#L36)*
 
 Creates a symbol for given string that can be used as a dependency indentifier
 
@@ -365,7 +365,7 @@ ___
 
 ▸ **eventHandlerId**(type: *`string`*): [DependencyIdentifier](sqrs.md#dependencyidentifier)<[EventHandler](../interfaces/sqrs.eventhandler.md)>
 
-*Defined in [events/EventHandler.ts:12](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/events/EventHandler.ts#L12)*
+*Defined in [events/EventHandler.ts:12](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/events/EventHandler.ts#L12)*
 
 Returns reusable DependencyIdentifier for given event type identifying event handler.
 
@@ -384,7 +384,7 @@ ___
 
 ▸ **queryHandlerId**(queryName: *`string`*): `symbol` & [BoundType](../interfaces/sqrs.boundtype.md)<[QueryHandler](../interfaces/sqrs.queryhandler.md)<[Query](../interfaces/sqrs.query.md)<`string`, `unknown`>>>
 
-*Defined in [queries/QueryHandler.ts:12](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/queries/QueryHandler.ts#L12)*
+*Defined in [queries/QueryHandler.ts:12](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/queries/QueryHandler.ts#L12)*
 
 Returns reusable DependencyIdentifier for given query name identifying query handler.
 

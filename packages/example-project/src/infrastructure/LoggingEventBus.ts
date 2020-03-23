@@ -5,7 +5,7 @@ import {
   DefaultEventBus,
   EventHandlerProvider,
   Event
-} from 'sqrs';
+} from '@brainhubeu/sqrs';
 import { Logger, loggerId } from './Logger';
 
 export default class LoggingEventBus implements EventBus {

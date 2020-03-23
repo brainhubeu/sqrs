@@ -1,6 +1,6 @@
 import { ContainerModule } from 'inversify';
-import { WithDependencies } from 'sqrs';
-import { ContainerBuilder } from 'sqrs-inversify';
+import { WithDependencies } from '@brainhubeu/sqrs';
+import { ContainerBuilder } from '@brainhubeu/sqrs-inversify';
 
 import todoQueryHandlers from './todos';
 

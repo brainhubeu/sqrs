@@ -1,5 +1,5 @@
 
-#  sqrs
+#  @brainhubeu/sqrs
 
 ## Index
 

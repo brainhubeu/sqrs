@@ -1,4 +1,4 @@
-import { Command } from 'sqrs';
+import { Command } from '@brainhubeu/sqrs';
 
 export enum TodoCommandTypes {
   create = 'todos/CREATE'

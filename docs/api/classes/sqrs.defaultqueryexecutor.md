@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [DefaultQueryExecutor](../classes/sqrs.defaultqueryexecutor.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [DefaultQueryExecutor](../classes/sqrs.defaultqueryexecutor.md)
 
 # Class: DefaultQueryExecutor
 
@@ -34,7 +34,7 @@
 
 ⊕ **new DefaultQueryExecutor**(queryHandlerProvider: *[QueryHandlerProvider](../interfaces/sqrs.queryhandlerprovider.md)*): [DefaultQueryExecutor](sqrs.defaultqueryexecutor.md)
 
-*Defined in [queries/DefaultQueryExecutor.ts:13](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/queries/DefaultQueryExecutor.ts#L13)*
+*Defined in [queries/DefaultQueryExecutor.ts:13](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/queries/DefaultQueryExecutor.ts#L13)*
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ ___
     queryHandlerProviderId
   ]
 
-*Defined in [queries/DefaultQueryExecutor.ts:11](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/queries/DefaultQueryExecutor.ts#L11)*
+*Defined in [queries/DefaultQueryExecutor.ts:11](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/queries/DefaultQueryExecutor.ts#L11)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 *Implementation of [QueryExecutor](../interfaces/sqrs.queryexecutor.md).[execute](../interfaces/sqrs.queryexecutor.md#execute)*
 
-*Defined in [queries/DefaultQueryExecutor.ts:20](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/queries/DefaultQueryExecutor.ts#L20)*
+*Defined in [queries/DefaultQueryExecutor.ts:20](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/queries/DefaultQueryExecutor.ts#L20)*
 
 **Type parameters:**
 

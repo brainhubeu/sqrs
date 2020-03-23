@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [EventBus](../interfaces/sqrs.eventbus.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [EventBus](../interfaces/sqrs.eventbus.md)
 
 # Interface: EventBus
 
@@ -30,7 +30,7 @@ Interface for event bus that allows raising events that will be sent to appropri
 
 ▸ **raise**(event: *[Event](sqrs.event.md)*): `void`
 
-*Defined in [events/EventBus.ts:24](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/events/EventBus.ts#L24)*
+*Defined in [events/EventBus.ts:24](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/events/EventBus.ts#L24)*
 
 Raises event and sends it to appropriate handlers
 

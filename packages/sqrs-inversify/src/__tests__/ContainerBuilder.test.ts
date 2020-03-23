@@ -1,5 +1,5 @@
 import { Container } from 'inversify';
-import { depId, Dependencies, commandHandlerId, eventHandlerId, queryHandlerId } from 'sqrs';
+import { depId, Dependencies, commandHandlerId, eventHandlerId, queryHandlerId } from '@brainhubeu/sqrs';
 import { ContainerBuilder } from '../ContainerBuilder';
 
 describe('ContainerBuilder', () => {

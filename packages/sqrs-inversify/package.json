@@ -45,5 +45,8 @@
     "setupFiles": [
       "<rootDir>/testSetup.ts"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

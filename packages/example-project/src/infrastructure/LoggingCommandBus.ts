@@ -8,7 +8,7 @@ import {
   CommandHandlerProvider,
   CommandValidatorProvider,
   commandValidatorProviderId
-} from 'sqrs';
+} from '@brainhubeu/sqrs';
 import { Logger, loggerId } from './Logger';
 
 export default class LoggingCommandBus implements CommandBus<CommandResult> {

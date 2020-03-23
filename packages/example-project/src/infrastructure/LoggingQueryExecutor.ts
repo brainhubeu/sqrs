@@ -5,7 +5,7 @@ import {
   DefaultQueryExecutor,
   QueryHandlerProvider,
   Query
-} from 'sqrs';
+} from '@brainhubeu/sqrs';
 import { Logger, loggerId } from './Logger';
 
 export default class LoggingQueryExecutor implements QueryExecutor {

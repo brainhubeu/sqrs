@@ -1,5 +1,5 @@
 {
-  "name": "sqrs-inversify",
+  "name": "@brainhubeu/sqrs-inversify",
   "version": "1.0.1",
   "description": "InversifyJS helpers for sqrs package",
   "main": "dist/index.js",
@@ -10,9 +10,12 @@
     "prebuild": "rimraf dist",
     "build": "tsc --outDir dist"
   },
-  "author": "rkostrzewski",
+  "author": {
+    "name" : "Rafał Kostrzewski",
+    "url" : "https://github.com/rkostrzewski"
+  },
   "repository": {
-    "url": "http://github.com/rkostrzewski/sqrs",
+    "url": "http://github.com/brainhubeu/sqrs",
     "type": "git"
   },
   "files": [
@@ -20,13 +23,13 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "@brainhubeu/sqrs": "^1.0.1",
     "@types/jest": "^23.3.13",
     "@types/node": "^10.12.18",
     "inversify": "^5.0.1",
     "jest": "^23.6.0",
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
-    "sqrs": "^1.0.1",
     "ts-jest": "^23.10.5",
     "tslint": "^5.11.0",
     "typescript": "^3.3.1"
@@ -36,7 +39,7 @@
   },
   "peerDependencies": {
     "inversify": "^5.0.0",
-    "sqrs": "^1.0.0"
+    "@brainhubeu/sqrs": "^1.0.0"
   },
   "jest": {
     "preset": "ts-jest",

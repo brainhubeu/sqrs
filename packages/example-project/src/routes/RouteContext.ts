@@ -5,7 +5,7 @@ import {
   commandBusId,
   QueryExecutor,
   queryExecutorId
-} from 'sqrs';
+} from '@brainhubeu/sqrs';
 import { CommandResult } from '../../../sqrs/dist';
 
 export const routeContextId = depId<RouteContext>('RouteContext');

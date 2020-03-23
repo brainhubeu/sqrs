@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [CommandHandler](../interfaces/sqrs.commandhandler.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [CommandHandler](../interfaces/sqrs.commandhandler.md)
 
 # Interface: CommandHandler
 
@@ -30,7 +30,7 @@ Base interface that command handlers implement
 
 ▸ **handle**(command: *`TCommand`*): `void` \| `Promise`<`void`>
 
-*Defined in [commands/CommandHandler.ts:31](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/CommandHandler.ts#L31)*
+*Defined in [commands/CommandHandler.ts:31](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/CommandHandler.ts#L31)*
 
 Handles dispatched command
 

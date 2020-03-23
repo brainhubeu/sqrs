@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [CommandValidator](../interfaces/sqrs.commandvalidator.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [CommandValidator](../interfaces/sqrs.commandvalidator.md)
 
 # Interface: CommandValidator
 
@@ -30,7 +30,7 @@ Base interface that command validators implement
 
 ▸ **validate**(command: *`TCommand`*): [CommandValidationResult](sqrs.commandvalidationresult.md) \| `Promise`<[CommandValidationResult](sqrs.commandvalidationresult.md)>
 
-*Defined in [commands/CommandValidator.ts:54](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/CommandValidator.ts#L54)*
+*Defined in [commands/CommandValidator.ts:54](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/CommandValidator.ts#L54)*
 
 Validates command
 

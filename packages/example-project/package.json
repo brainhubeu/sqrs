@@ -8,19 +8,22 @@
     "test": "ts-node src/e2e.test.ts",
     "lint": "tslint --project ./tsconfig.json 'src/**/*'"
   },
-  "author": "rkostrzewski",
+  "author": {
+    "name" : "Rafał Kostrzewski",
+    "url" : "https://github.com/rkostrzewski"
+  },
   "files": [],
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@brainhubeu/sqrs": "^1.0.1",
+    "@brainhubeu/sqrs-inversify": "^1.0.1",
     "body-parser": "^1.18.3",
     "chalk": "^2.4.2",
     "express": "^4.16.3",
     "http-status-codes": "^1.3.0",
     "inversify": "^5.0.1",
     "sqlite3": "^4.0.6",
-    "sqrs": "^1.0.1",
-    "sqrs-inversify": "^1.0.1",
     "typeorm": "^0.2.12",
     "yup": "^0.26.10"
   },

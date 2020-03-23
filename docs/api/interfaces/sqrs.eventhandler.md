@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [EventHandler](../interfaces/sqrs.eventhandler.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [EventHandler](../interfaces/sqrs.eventhandler.md)
 
 # Interface: EventHandler
 
@@ -30,7 +30,7 @@ Base interface that event handlers implement
 
 ▸ **handle**(event: *`TEvent`*): `void` \| `Promise`<`void`>
 
-*Defined in [events/EventHandler.ts:30](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/events/EventHandler.ts#L30)*
+*Defined in [events/EventHandler.ts:30](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/events/EventHandler.ts#L30)*
 
 Handles an event
 

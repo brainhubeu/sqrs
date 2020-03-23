@@ -1,4 +1,4 @@
-import { CommandValidator, Command, CommandValidationResult } from 'sqrs';
+import { CommandValidator, Command, CommandValidationResult } from '@brainhubeu/sqrs';
 import * as yup from 'yup';
 import { Omit } from 'utility-types';
 

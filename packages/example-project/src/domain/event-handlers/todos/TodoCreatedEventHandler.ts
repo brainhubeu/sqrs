@@ -1,4 +1,4 @@
-import { EventHandler, Dependencies } from 'sqrs';
+import { EventHandler, Dependencies } from '@brainhubeu/sqrs';
 import { TodoCreatedEvent, TodoEventTypes } from '../../events/todos';
 import { Logger, loggerId } from '../../../infrastructure/Logger';
 

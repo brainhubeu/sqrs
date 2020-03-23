@@ -1,4 +1,4 @@
-import { QueryHandler, Dependencies } from 'sqrs';
+import { QueryHandler, Dependencies } from '@brainhubeu/sqrs';
 import { GetTodosQuery, TodoQueryNames } from '../../queries/todos';
 import { TodoRepository, todoRepositoryId } from '../../repositories/todoRepository';
 import Todo from '../../models/Todo';

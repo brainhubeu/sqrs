@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [CommandHandlerProvider](../interfaces/sqrs.commandhandlerprovider.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [CommandHandlerProvider](../interfaces/sqrs.commandhandlerprovider.md)
 
 # Interface: CommandHandlerProvider
 
@@ -13,7 +13,7 @@ A function that resolves a command handler by the command type.
 ## Callable
 ▸ **__call**<`T`>(type: *`T`*): [CommandHandler](sqrs.commandhandler.md)<[Command](sqrs.command.md)<`T`>> \| `undefined`
 
-*Defined in [commands/CommandHandlerProvider.ts:19](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/CommandHandlerProvider.ts#L19)*
+*Defined in [commands/CommandHandlerProvider.ts:19](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/CommandHandlerProvider.ts#L19)*
 
 A function that resolves a command handler by the command type.
 

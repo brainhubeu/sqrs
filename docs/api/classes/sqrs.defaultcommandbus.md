@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [DefaultCommandBus](../classes/sqrs.defaultcommandbus.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [DefaultCommandBus](../classes/sqrs.defaultcommandbus.md)
 
 # Class: DefaultCommandBus
 
@@ -34,7 +34,7 @@
 
 ⊕ **new DefaultCommandBus**(commandHandlerProvider: *[CommandHandlerProvider](../interfaces/sqrs.commandhandlerprovider.md)*, commandValidatorProvider: *[CommandValidatorProvider](../interfaces/sqrs.commandvalidatorprovider.md)*): [DefaultCommandBus](sqrs.defaultcommandbus.md)
 
-*Defined in [commands/DefaultCommandBus.ts:28](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/DefaultCommandBus.ts#L28)*
+*Defined in [commands/DefaultCommandBus.ts:28](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/DefaultCommandBus.ts#L28)*
 
 **Parameters:**
 
@@ -58,7 +58,7 @@ ___
     commandValidatorProviderId
   ]
 
-*Defined in [commands/DefaultCommandBus.ts:25](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/DefaultCommandBus.ts#L25)*
+*Defined in [commands/DefaultCommandBus.ts:25](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/DefaultCommandBus.ts#L25)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 *Implementation of [CommandBus](../interfaces/sqrs.commandbus.md).[dispatch](../interfaces/sqrs.commandbus.md#dispatch)*
 
-*Defined in [commands/DefaultCommandBus.ts:43](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/DefaultCommandBus.ts#L43)*
+*Defined in [commands/DefaultCommandBus.ts:43](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/DefaultCommandBus.ts#L43)*
 
 Dispatches a command in the same process and returns promise resolving with command result
 

@@ -151,7 +151,7 @@ The `CommandBus` interface represents a generic usage command bus. It also accep
 You can write your own command bus or use a default one provided by the package, described later.
 
 ```ts
-import { CommandBus } from 'sqrs';
+import { CommandBus } from '@brainhubeu/sqrs';
 
 const command = createCreateNoteCommand('hello')
 
@@ -227,7 +227,7 @@ In order for a query to be executed it needs to be executed on the query executo
 The `QueryExecutor` interface represents a generic usage query executor. The package also exports `DefaultQueryExecutor` which executes query using resolved query handler. Similar to the `DefaultCommandBus` it requires a function to resolve query handlers for given query.
 
 ```ts
-import { QueryExecutor } from 'sqrs';
+import { QueryExecutor } from '@brainhubeu/sqrs';
 
 const query = new GetNotesQuery(0, 25);
 
@@ -277,7 +277,7 @@ In order for an event to be handled it needs to be raised to the command bus.
 The `EventBus` interface represents a generic usage event bus. The package also exports `DefaultEventBus` which handles event using resolved event handlers, awaiting their results and rejecting with error of the first failed event handler. Similar to the `DefaultQueryExecutor` it requires a function to resolve all event handlers for a given event.
 
 ```ts
-import { EventBus } from 'sqrs';
+import { EventBus } from '@brainhubeu/sqrs';
 
 const event = new NoteCreatedEvent(note)
 
@@ -308,7 +308,7 @@ import {
   containerEventHandlerProviderFactory,
   DefaultQueryExecutor,
   containerQueryHandlerProviderFactory,
-} from 'sqrs';
+} from '@brainhubeu/sqrs';
 
 const container: Container = // create a container
 
@@ -370,7 +370,7 @@ depId<Foo>('Foo', true) === depId<Foo>('Foo', true) // returns true as Symbol wa
 `sqrs` package also exports helper functions that allow creating reusable dependency identifiers for command handlers, command validators, event handlers, and query handlers.
 
 ```ts
-import { commandHandlerId, commandValidatorId, eventHandlerId, queryHandlerId } from 'sqrs'
+import { commandHandlerId, commandValidatorId, eventHandlerId, queryHandlerId } from '@brainhubeu/sqrs'
 
 const createNoteCommandHandlerId = commandHandlerId(
   CommandTypes.CreateNote
@@ -413,7 +413,7 @@ import {
   eventBusId, EventBus,
   commandHandlerId, CommandHandler,
   createCommandHandlerProviderFactory,
-} from 'sqrs';
+} from '@brainhubeu/sqrs';
 import { injectable, inject } from 'inversify';
 import { noteRepositoryId, NoteRepository } from '../repositories/NoteRepository';
 
@@ -456,7 +456,7 @@ If you're using some other framework you can just implement a wrapper that imple
 
 An example with [BottleJS](https://github.com/young-steveo/bottlejs):
 ```ts
-import { Container } from 'sqrs';
+import { Container } from '@brainhubeu/sqrs';
 
 const bottle: Bottle = new Bottle();
 

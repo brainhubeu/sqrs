@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [Query](../interfaces/sqrs.query.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [Query](../interfaces/sqrs.query.md)
 
 # Interface: Query
 
@@ -40,7 +40,7 @@ Base interface that queries implement
 
 *Inherited from [BoundType](sqrs.boundtype.md).[__computed](sqrs.boundtype.md#__computed)*
 
-*Defined in [di/dependencies.ts:20](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/di/dependencies.ts#L20)*
+*Defined in [di/dependencies.ts:20](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/di/dependencies.ts#L20)*
 
 Used only to guarantee type safety don't use this field directly as it will always be empty.
 
@@ -58,7 +58,7 @@ ___
 
 **● queryName**: *`TName`*
 
-*Defined in [queries/Query.ts:15](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/queries/Query.ts#L15)*
+*Defined in [queries/Query.ts:15](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/queries/Query.ts#L15)*
 
 ___
 

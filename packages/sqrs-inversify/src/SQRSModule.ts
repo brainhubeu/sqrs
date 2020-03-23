@@ -13,7 +13,7 @@ import {
   DefaultEventBus,
   commandValidatorProviderId,
   containerCommandValidatorProviderFactory
-} from 'sqrs';
+} from '@brainhubeu/sqrs';
 import { ContainerModule } from 'inversify';
 import { ContainerBuilder } from './ContainerBuilder';
 

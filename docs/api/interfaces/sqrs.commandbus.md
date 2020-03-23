@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [CommandBus](../interfaces/sqrs.commandbus.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [CommandBus](../interfaces/sqrs.commandbus.md)
 
 # Interface: CommandBus
 
@@ -34,7 +34,7 @@ Interface for command bus that allows dispatching commands to appropriate handle
 
 ▸ **dispatch**(command: *[Command](sqrs.command.md)*): `Promise`<`T`>
 
-*Defined in [commands/CommandBus.ts:26](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/CommandBus.ts#L26)*
+*Defined in [commands/CommandBus.ts:26](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/CommandBus.ts#L26)*
 
 Dispatches a command to appropriate command handler
 

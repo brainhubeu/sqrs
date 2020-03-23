@@ -1,4 +1,4 @@
-import { Query } from 'sqrs';
+import { Query } from '@brainhubeu/sqrs';
 import Todo from '../models/Todo';
 
 export enum TodoQueryNames {

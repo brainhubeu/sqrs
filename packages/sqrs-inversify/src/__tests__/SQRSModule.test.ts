@@ -10,7 +10,7 @@ import {
   commandValidatorProviderId,
   queryHandlerProviderId,
   eventHandlerProviderId
-} from 'sqrs';
+} from '@brainhubeu/sqrs';
 import { SQRSModule } from '../SQRSModule';
 
 describe('SQRSModule', () => {

@@ -35,7 +35,7 @@ You can read more about CQRS here:
 
 Writing commands (note you don't have to use classes, you can also use object factories):
 ```ts
-import { Command } from 'sqrs';
+import { Command } from '@brainhubeu/sqrs';
 
 export class AddNoteCommand implements Command {
   public type = 'add-note';
@@ -49,7 +49,7 @@ export class AddNoteCommand implements Command {
 
 Writing command handlers:
 ```ts
-import { CommandHandler } from 'sqrs';
+import { CommandHandler } from '@brainhubeu/sqrs';
 
 class AddNoteCommandHandler implements CommandHandler {
   public handle (command: AddNoteCommand) {
@@ -60,7 +60,7 @@ class AddNoteCommandHandler implements CommandHandler {
 
 Writing queries:
 ```ts
-import { Query } from 'sqrs';
+import { Query } from '@brainhubeu/sqrs';
 
 export class GetNotesQuery implements Query<string, Note[]> {
   public queryName = 'GetNotes';
@@ -69,7 +69,7 @@ export class GetNotesQuery implements Query<string, Note[]> {
 
 Writing query handlers:
 ```ts
-import { QueryHandler } from 'sqrs';
+import { QueryHandler } from '@brainhubeu/sqrs';
 
 export class GetNotesQueryHandler implements QueryHandler<GetNotesQuery> {
   execute (query: GetNotesQuery): Promise<Note[]> {
@@ -80,7 +80,7 @@ export class GetNotesQueryHandler implements QueryHandler<GetNotesQuery> {
 
 Final usage:
 ```ts
-import { DefaultCommandBus, CommandBus, DefaultQueryExecutor, QueryExecutor } from 'sqrs';
+import { DefaultCommandBus, CommandBus, DefaultQueryExecutor, QueryExecutor } from '@brainhubeu/sqrs';
 
 const commandBus: CommandBus = new DefaultCommandBus(
   // created somewhere else

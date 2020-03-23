@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [CommandResult](../interfaces/sqrs.commandresult.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [CommandResult](../interfaces/sqrs.commandresult.md)
 
 # Interface: CommandResult
 
@@ -33,7 +33,7 @@ Generic interface describing result of running command
 
 **● executionError**: *`Error`*
 
-*Defined in [commands/DefaultCommandBus.ts:21](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/DefaultCommandBus.ts#L21)*
+*Defined in [commands/DefaultCommandBus.ts:21](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/DefaultCommandBus.ts#L21)*
 
 ___
 <a id="isvalid"></a>
@@ -42,7 +42,7 @@ ___
 
 **● isValid**: *`boolean`*
 
-*Defined in [commands/DefaultCommandBus.ts:19](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/DefaultCommandBus.ts#L19)*
+*Defined in [commands/DefaultCommandBus.ts:19](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/DefaultCommandBus.ts#L19)*
 
 ___
 <a id="success"></a>
@@ -51,7 +51,7 @@ ___
 
 **● success**: *`boolean`*
 
-*Defined in [commands/DefaultCommandBus.ts:18](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/DefaultCommandBus.ts#L18)*
+*Defined in [commands/DefaultCommandBus.ts:18](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/DefaultCommandBus.ts#L18)*
 
 ___
 <a id="validationerrors"></a>
@@ -60,7 +60,7 @@ ___
 
 **● validationErrors**: *`TValidationError`[]*
 
-*Defined in [commands/DefaultCommandBus.ts:20](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/commands/DefaultCommandBus.ts#L20)*
+*Defined in [commands/DefaultCommandBus.ts:20](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/commands/DefaultCommandBus.ts#L20)*
 
 ___
 

@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [QueryExecutor](../interfaces/sqrs.queryexecutor.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [QueryExecutor](../interfaces/sqrs.queryexecutor.md)
 
 # Interface: QueryExecutor
 
@@ -30,7 +30,7 @@ Interface for query executor that allows executing queries by dispatching them t
 
 ▸ **execute**<`T`>(query: *[Query](sqrs.query.md)<`string`, `T`>*): `Promise`<`T`>
 
-*Defined in [queries/QueryExecutor.ts:27](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/queries/QueryExecutor.ts#L27)*
+*Defined in [queries/QueryExecutor.ts:27](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/queries/QueryExecutor.ts#L27)*
 
 Executes a given query by dispatching it to a query handler
 

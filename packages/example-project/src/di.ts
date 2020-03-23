@@ -1,6 +1,6 @@
 import { Container } from 'inversify';
-import { queryExecutorId, commandBusId, eventBusId } from 'sqrs';
-import { SQRSModule, ContainerBuilder } from 'sqrs-inversify';
+import { queryExecutorId, commandBusId, eventBusId } from '@brainhubeu/sqrs';
+import { SQRSModule, ContainerBuilder } from '@brainhubeu/sqrs-inversify';
 import { createConnection } from 'typeorm';
 
 import LoggingQueryExecutor from './infrastructure/LoggingQueryExecutor';

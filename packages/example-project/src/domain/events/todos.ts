@@ -1,4 +1,4 @@
-import { Event } from 'sqrs';
+import { Event } from '@brainhubeu/sqrs';
 import Todo from '../models/Todo';
 
 export enum TodoEventTypes {

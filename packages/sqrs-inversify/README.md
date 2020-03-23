@@ -10,8 +10,8 @@ SQRS module registers all handler providers and default implementation of the bu
 
 ```ts
 import { Container } from 'inversify';
-import { commandBusId, CommandBus } from 'sqrs';
-import { SQRSModule } from 'sqrs-inversify';
+import { commandBusId, CommandBus } from '@brainhubeu/sqrs';
+import { SQRSModule } from '@brainhubeu/sqrs-inversify';
 
 const container = new Container();
 
@@ -32,8 +32,8 @@ import {
   eventBusId,
   EventBus,
   Dependencies,
-} from 'sqrs';
-import { ContainerBuilder } from 'sqrs-inversify';
+} from '@brainhubeu/sqrs';
+import { ContainerBuilder } from '@brainhubeu/sqrs-inversify';
 
 // Assuming CreateNoteCommand, NoteRepository are declared
 class CreateNoteCommandHandler implements CommandHandler<CreateNoteCommand> {
@@ -88,7 +88,7 @@ The type of dependencies should be `Dependencies` imported from `sqrs` module. T
 import {
   Dependencies,
   depId,
-} from 'sqrs';
+} from '@brainhubeu/sqrs';
 
 type Foo = {};
 type Baz = {};
@@ -117,8 +117,8 @@ To register a type that has `dependencies` static field use `registerType` metho
 
 ```ts
 import { Container } from 'inversify';
-import { depId } from 'sqrs';
-import { ContainerBuilder } from 'sqrs-inversify';
+import { depId } from '@brainhubeu/sqrs';
+import { ContainerBuilder } from '@brainhubeu/sqrs-inversify';
 
 const container = new Container();
 const builder = new ContainerBuilder(container);

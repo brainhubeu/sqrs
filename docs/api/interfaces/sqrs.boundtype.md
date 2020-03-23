@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [BoundType](../interfaces/sqrs.boundtype.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [BoundType](../interfaces/sqrs.boundtype.md)
 
 # Interface: BoundType
 
@@ -32,7 +32,7 @@ Interface that is used to guarantee type safety when TypeScript infers types
 
 **● __computed**: *[T]()*
 
-*Defined in [di/dependencies.ts:20](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/di/dependencies.ts#L20)*
+*Defined in [di/dependencies.ts:20](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/di/dependencies.ts#L20)*
 
 Used only to guarantee type safety don't use this field directly as it will always be empty.
 

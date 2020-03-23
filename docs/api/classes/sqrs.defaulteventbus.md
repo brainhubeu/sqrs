@@ -1,4 +1,4 @@
-[sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [DefaultEventBus](../classes/sqrs.defaulteventbus.md)
+[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [DefaultEventBus](../classes/sqrs.defaulteventbus.md)
 
 # Class: DefaultEventBus
 
@@ -34,7 +34,7 @@
 
 ⊕ **new DefaultEventBus**(handlerProvider: *[EventHandlerProvider](../modules/sqrs.md#eventhandlerprovider)*): [DefaultEventBus](sqrs.defaulteventbus.md)
 
-*Defined in [events/DefaultEventBus.ts:12](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/events/DefaultEventBus.ts#L12)*
+*Defined in [events/DefaultEventBus.ts:12](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/events/DefaultEventBus.ts#L12)*
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ ___
     eventHandlerProviderId
   ]
 
-*Defined in [events/DefaultEventBus.ts:10](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/events/DefaultEventBus.ts#L10)*
+*Defined in [events/DefaultEventBus.ts:10](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/events/DefaultEventBus.ts#L10)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 *Implementation of [EventBus](../interfaces/sqrs.eventbus.md).[raise](../interfaces/sqrs.eventbus.md#raise)*
 
-*Defined in [events/DefaultEventBus.ts:27](https://github.com/rkostrzewski/sqrs/blob/2a5a94e/packages/sqrs/src/events/DefaultEventBus.ts#L27)*
+*Defined in [events/DefaultEventBus.ts:27](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/events/DefaultEventBus.ts#L27)*
 
 Raises and event and waits until all promise handlers have executed rejecting with error of first handler that failed (without stopping others)
 

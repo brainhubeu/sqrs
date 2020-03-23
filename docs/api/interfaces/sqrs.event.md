@@ -1,18 +1,20 @@
-[@brainhubeu/sqrs](../README.md) > [sqrs](../modules/sqrs.md) > [Event](../interfaces/sqrs.event.md)
+[@brainhubeu/sqrs](../README.md) › [sqrs](../modules/sqrs.md) › [Event](sqrs.event.md)
 
-# Interface: Event
+# Interface: Event <**T**>
 
 Base interface that events implement
 
-*__interface__*: Event
-
-*__template__*: T - type of event
+**`interface`** Event
 
 ## Type parameters
-#### T :  `string`
+
+▪ **T**: *string*
+
+type of event
+
 ## Hierarchy
 
-**Event**
+* **Event**
 
 ## Index
 
@@ -20,17 +22,10 @@ Base interface that events implement
 
 * [type](sqrs.event.md#type)
 
----
-
 ## Properties
-
-<a id="type"></a>
 
 ###  type
 
-**● type**: *`T`*
+• **type**: *T*
 
-*Defined in [events/Event.ts:11](https://github.com/brainhubeu/sqrs/blob/f7042dc/packages/sqrs/src/events/Event.ts#L11)*
-
-___
-
+*Defined in [events/Event.ts:11](https://github.com/brainhubeu/sqrs/blob/5e9c52a/packages/sqrs/src/events/Event.ts#L11)*

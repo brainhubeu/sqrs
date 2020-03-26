@@ -4,16 +4,16 @@
   "groupName": "NPM dependencies",
   "labels": ["renovate"],
   "rangeStrategy": "bump",
-  "docker": {
+  "node": {
     "major": {
       "enabled": true
     }
   },
   "packageRules": [
     {
-      "groupName": "Docker dependencies",
+      "groupName": "TravisCI",
       "managers": [
-        "circleci"
+        "travis"
       ]
     },
     {

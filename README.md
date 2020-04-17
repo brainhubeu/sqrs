@@ -1,5 +1,6 @@
 # sqrs
 
+[![CircleCI](https://api.travis-ci.org/brainhubeu/sqrs.svg?branch=master)](https://travis-ci.org/github/brainhubeu/sqrs)
 [![Last commit](https://img.shields.io/github/last-commit/brainhubeu/sqrs.svg)](https://github.com/brainhubeu/sqrs/commits/master)
 [![license](https://img.shields.io/npm/l/@brainhubeu/sqrs.svg)](https://github.com/brainhubeu/sqrs/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)

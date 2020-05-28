@@ -1,19 +1,33 @@
-# sqrs
+<br/>
+<h1 align="center">
+  sqrs
+</h1>
 
-[![Travis](https://api.travis-ci.org/brainhubeu/sqrs.svg?branch=master)](https://travis-ci.org/github/brainhubeu/sqrs)
-[![Last commit](https://img.shields.io/github/last-commit/brainhubeu/sqrs.svg)](https://github.com/brainhubeu/sqrs/commits/master)
-[![license](https://img.shields.io/npm/l/@brainhubeu/sqrs.svg)](https://github.com/brainhubeu/sqrs/blob/master/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+<p align="center">
+  A JavaScript library for implementing CQRS pattern.
+</p>
 
-[![Downloads](https://img.shields.io/npm/dm/@brainhubeu/sqrs?color=blue)](https://www.npmjs.com/package/@brainhubeu/sqrs)
-[![Activity](https://img.shields.io/github/commit-activity/m/brainhubeu/sqrs.svg)](https://github.com/brainhubeu/sqrs/commits/master)
-[![Minified](https://img.shields.io/bundlephobia/min/@brainhubeu/sqrs?label=minified)](https://www.npmjs.com/package/@brainhubeu/sqrs)
-[![npm](https://img.shields.io/npm/v/@brainhubeu/sqrs.svg)](https://www.npmjs.com/package/@brainhubeu/sqrs)
-[![Contributors](https://img.shields.io/github/contributors/brainhubeu/sqrs?color=blue)](https://github.com/brainhubeu/sqrs/graphs/contributors)
+<p align="center">
+  <strong>
+    <a href="https://brainhub.eu/contact/">Hire us</a>
+  </strong>
+</p>
 
+<div align="center">
 
-SQRS is a JavaScript library for implementing CQRS pattern.
+  [![Travis](https://api.travis-ci.org/brainhubeu/sqrs.svg?branch=master)](https://travis-ci.org/github/brainhubeu/sqrs)
+  [![Last commit](https://img.shields.io/github/last-commit/brainhubeu/sqrs.svg)](https://github.com/brainhubeu/sqrs/commits/master)
+  [![license](https://img.shields.io/npm/l/@brainhubeu/sqrs.svg)](https://github.com/brainhubeu/sqrs/blob/master/LICENSE)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+  [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+
+  [![Downloads](https://img.shields.io/npm/dm/@brainhubeu/sqrs?color=blue)](https://www.npmjs.com/package/@brainhubeu/sqrs)
+  [![Activity](https://img.shields.io/github/commit-activity/m/brainhubeu/sqrs.svg)](https://github.com/brainhubeu/sqrs/commits/master)
+  [![Minified](https://img.shields.io/bundlephobia/min/@brainhubeu/sqrs?label=minified)](https://www.npmjs.com/package/@brainhubeu/sqrs)
+  [![npm](https://img.shields.io/npm/v/@brainhubeu/sqrs.svg)](https://www.npmjs.com/package/@brainhubeu/sqrs)
+  [![Contributors](https://img.shields.io/github/contributors/brainhubeu/sqrs?color=blue)](https://github.com/brainhubeu/sqrs/graphs/contributors)
+</div>
+
 
 Best used with TypeScript as it exposes interfaces for Commands, CommandHandlers, Queries, QueryHandlers and more.
 

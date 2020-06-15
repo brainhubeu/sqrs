@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - 10
 install:
-  - lerna bootstrap
+  - npx lerna bootstrap
 script:
   - npm run build
   - npm run lint

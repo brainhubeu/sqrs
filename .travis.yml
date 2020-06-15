@@ -3,10 +3,7 @@ node_js:
   - 10
 install:
   - lerna bootstrap
-install:
-    - npm install
-    - npx lerna bootstrap
 script:
-    - npm run build
-    - npm run lint
-    - npm run test
+  - npm run build
+  - npm run lint
+  - npm run test

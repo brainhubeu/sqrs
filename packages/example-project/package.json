@@ -18,7 +18,6 @@
   "dependencies": {
     "@brainhubeu/sqrs": "^1.0.3",
     "@brainhubeu/sqrs-inversify": "^1.0.3",
-    "body-parser": "^1.19.0",
     "chalk": "^2.4.2",
     "express": "^4.17.1",
     "http-status-codes": "^1.4.0",

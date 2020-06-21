@@ -32,8 +32,6 @@
     "@types/yup": "^0.26.37",
     "supertest": "^3.4.2",
     "ts-node": "^5.0.1",
-    "tslint": "^5.20.1",
-    "tslint-config-standard": "^9.0.0",
     "typescript": "^3.9.5",
     "utility-types": "^3.10.0"
   }

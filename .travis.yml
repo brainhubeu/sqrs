@@ -2,9 +2,8 @@ language: node_js
 node_js:
   - 12
 install:
-  - npm i -g lerna
   - yarn install --non-interactive
-  - lerna bootstrap
+  - yarn lerna bootstrap
 script:
   - yarn build
   - yarn lint

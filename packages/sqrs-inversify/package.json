@@ -1,6 +1,6 @@
 {
   "name": "@brainhubeu/sqrs-inversify",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "InversifyJS helpers for sqrs package",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,12 +24,12 @@
   "license": "MIT",
   "devDependencies": {
     "@brainhubeu/sqrs": "^1.0.3",
-    "@types/jest": "^23.3.14",
+    "@types/jest": "^26.0.0",
     "inversify": "^5.0.1",
-    "jest": "^25.5.4",
+    "jest": "^26.0.1",
     "reflect-metadata": "^0.1.13",
-    "rimraf": "^2.7.1",
-    "ts-jest": "^25.5.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.1.1",
     "tslint": "^6.1.2",
     "typescript": "^3.9.5"
   },

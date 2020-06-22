@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "lerna": "^3.22.1",
-    "tslint": "^6.1.2",
     "tslint-config-standard": "^9.0.0",
     "typescript": "^3.9.5"
   }

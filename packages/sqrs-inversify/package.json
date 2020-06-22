@@ -24,7 +24,7 @@
   "license": "MIT",
   "devDependencies": {
     "@brainhubeu/sqrs": "^1.0.3",
-    "@types/jest": "^26.0.0",
+    "@types/jest": "23.3.13",
     "inversify": "^5.0.1",
     "jest": "^26.0.1",
     "reflect-metadata": "^0.1.13",

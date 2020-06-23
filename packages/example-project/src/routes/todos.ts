@@ -11,7 +11,7 @@ const routes: Route[] = [
       const { queryExecutor } = context;
       const { skip, take } = req.params;
 
-      const query = new GetTodosQuery(take, skip);
+      const query = new GetTodosQuery(Number(take), Number(skip));
 
       queryExecutor.execute(query)
         .then(todos =>

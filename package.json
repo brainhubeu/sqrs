@@ -9,6 +9,8 @@
     "publish": "npm run build && npm run lint && npm run test && npm run doc && lerna --ignore-changes example-project publish"
   },
   "devDependencies": {
+    "@brainhubeu/license-auditor": "^1.0.18",
+    "danger": "^10.2.1",
     "lerna": "^3.22.1",
     "tslint": "^6.1.2",
     "tslint-config-standard": "^9.0.0",

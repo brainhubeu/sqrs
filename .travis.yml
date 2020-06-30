@@ -3,6 +3,7 @@ node_js:
   - 12
 install:
   - yarn install --non-interactive
+  - yarn danger ci --failOnErrors --id @brainhubeu/react-carousel
   - yarn lerna bootstrap
 script:
   - yarn build

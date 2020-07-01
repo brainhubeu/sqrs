@@ -16,6 +16,7 @@ const whitelist = [
   'Apache License, Version 2.0',
   'Apache-2.0',
   'Apache2',
+  'Artistic-2.0',
   'BSD-2-Clause',
   'BSD-3-Clause OR MIT',
   'BSD-3-Clause',

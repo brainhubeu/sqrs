@@ -1,6 +1,6 @@
 {
   "name": "example-project",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Example project using sqrs",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "http-status-codes": "^1.4.0",
     "inversify": "^5.0.1",
     "sqlite3": "^4.2.0",
-    "typeorm": "^0.2.25",
+    "typeorm": "^0.3.0",
     "yup": "^0.29.1"
   },
   "devDependencies": {
